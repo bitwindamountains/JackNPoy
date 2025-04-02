@@ -63,7 +63,7 @@ if(isset($_POST['choices'])){
 if(isset($_POST['quit'])){
     session_unset();
     session_destroy();
-    header("Location: 11-9-24 (jackNpoy).php");
+    header("Location: jackNpoy.php");
     exit();
 }
     ?>
@@ -80,31 +80,31 @@ if(isset($_POST['quit'])){
             <td>
                 <?php
                 if($human == 1){
-                    echo "<img src='D:\RPS\RPS\Rock.jpg'>";
+                    echo "<img src='RPS\Rock.jpg'>";
                 }
                 else if($human == 2){
-                    echo "<img src='D:\RPS\RPS\paper.jpg'>";
+                    echo "<img src='RPS\paper.jpg'>";
                 }
                 else if($human == 3){
-                    echo "<img src='D:\RPS\RPS\scissor.jpg'>";
+                    echo "<img src='RPS\scissor.jpg'>";
                 }
                 else
-                echo "<img src='D:\RPS\RPS\Filler.png'>";
+                echo "<img src='RPS\Filler.png'>";
                 ?>
             </td>
             <td>
             <?php
                 if($computer== 1){
-                    echo "<img src='D:\RPS\RPS\Rock.jpg'>";
+                    echo "<img src='RPS\Rock.jpg'>";
                 }
                 else if($computer == 2){
-                    echo "<img src='D:\RPS\RPS\paper.jpg'>";
+                    echo "<img src='RPS\paper.jpg'>";
                 }
                 else if($computer == 3){
-                    echo "<img src='D:\RPS\RPS\scissor.jpg'>";
+                    echo "<img src='RPS\scissor.jpg'>";
                 }
                 else
-                echo "<img src='D:\RPS\RPS\Filler.png'>";
+                echo "<img src='RPS\Filler.png'>";
                 ?>
             </td>
         </tr>
